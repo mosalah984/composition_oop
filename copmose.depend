@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1697837561 source:e:\programming\porgramming\c++\practices\copmose\main.cpp
+	<iostream>
+	"Date.h"
+	"Employee.h"
+
+1697837340 e:\programming\porgramming\c++\practices\copmose\date.h
+
+1697838000 e:\programming\porgramming\c++\practices\copmose\employee.h
+	<string>
+	"Date.h"
+
+1697837695 source:e:\programming\porgramming\c++\practices\copmose\date.cpp
+	<iostream>
+	"Date.h"
+	<stdexcept>
+	<array>
+
+1697838000 source:e:\programming\porgramming\c++\practices\copmose\employee.cpp
+	<iostream>
+	"Employee.h"
+	"Date.h"
+	<string>
+
