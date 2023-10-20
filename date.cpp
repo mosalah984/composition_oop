@@ -1,10 +1,10 @@
 #include <iostream>
-#include "date.h"
+#include "Date.h"
 #include <stdexcept>
 #include <array>
 using namespace std;
 
-Date::Data(int mn, int dy, int yr)
+Date::Date(int mn, int dy, int yr)
 {
 	// validate the month
 	if (mn > 0 && mn <= monthsPerYear)
@@ -43,7 +43,7 @@ unsigned int Date::checkDay(int testDay) const
 
 }
 
-Date::~Data()
+Date::~Date()
 {
 	cout << "Date object destructor for date ";
 	print();
